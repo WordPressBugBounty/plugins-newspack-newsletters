@@ -1,3 +1,18 @@
+# [3.10.0](https://github.com/Automattic/newspack-newsletters/compare/v3.9.2...v3.10.0) (2025-03-18)
+
+
+### Bug Fixes
+
+* correct data fetching error ([#1765](https://github.com/Automattic/newspack-newsletters/issues/1765)) ([67d954f](https://github.com/Automattic/newspack-newsletters/commit/67d954fafc6e3b212e4e14ab7e9726f467ab6cad))
+* handle email change esp sync errors ([#1769](https://github.com/Automattic/newspack-newsletters/issues/1769)) ([ac3b598](https://github.com/Automattic/newspack-newsletters/commit/ac3b59829d101e5e6968f59aa5e7a9ab4e0b6586))
+* **modal-checkout:** filter post-checkout signup lists ([#1783](https://github.com/Automattic/newspack-newsletters/issues/1783)) ([6908cc3](https://github.com/Automattic/newspack-newsletters/commit/6908cc316a0a3ced8124aad34141fe6e54e37753))
+* **premium:** conditions for premium lists auto-signup ([#1766](https://github.com/Automattic/newspack-newsletters/issues/1766)) ([a850c5e](https://github.com/Automattic/newspack-newsletters/commit/a850c5ed24d10cc258879d41b3ce4ca8d866e1d5))
+
+
+### Features
+
+* allow email address updates to ESPs ([#1764](https://github.com/Automattic/newspack-newsletters/issues/1764)) ([f472d24](https://github.com/Automattic/newspack-newsletters/commit/f472d245b89e8543a1697005cc8b654fd67a034b))
+
 ## [3.9.2](https://github.com/Automattic/newspack-newsletters/compare/v3.9.1...v3.9.2) (2025-03-18)
 
 
