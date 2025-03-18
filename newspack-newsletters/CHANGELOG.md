@@ -1,3 +1,10 @@
+## [3.9.2](https://github.com/Automattic/newspack-newsletters/compare/v3.9.1...v3.9.2) (2025-03-18)
+
+
+### Bug Fixes
+
+* registration page event meta ([#1777](https://github.com/Automattic/newspack-newsletters/issues/1777)) ([062b8fb](https://github.com/Automattic/newspack-newsletters/commit/062b8fb3b8655ed03736199ff5c9aa15cee9c506))
+
 ## [3.9.1](https://github.com/Automattic/newspack-newsletters/compare/v3.9.0...v3.9.1) (2025-03-05)
 
 
