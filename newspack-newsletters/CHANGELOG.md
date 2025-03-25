@@ -1,3 +1,10 @@
+## [3.10.1](https://github.com/Automattic/newspack-newsletters/compare/v3.10.0...v3.10.1) (2025-03-25)
+
+
+### Bug Fixes
+
+* mailchimp email change sync strategy ([#1787](https://github.com/Automattic/newspack-newsletters/issues/1787)) ([341ad39](https://github.com/Automattic/newspack-newsletters/commit/341ad39175dd29ad6a9050655e05ca346045de47))
+
 # [3.10.0](https://github.com/Automattic/newspack-newsletters/compare/v3.9.2...v3.10.0) (2025-03-18)
 
 
