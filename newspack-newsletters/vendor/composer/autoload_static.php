@@ -4,22 +4,8 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitf7a8cccc0f31f8e7c49da41cd51131ba
+class ComposerStaticInitad140987a728377ab04fed0fe5aa6a0e
 {
-    public static $prefixLengthsPsr4 = array (
-        'D' => 
-        array (
-            'DrewM\\MailChimp\\' => 16,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'DrewM\\MailChimp\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/drewm/mailchimp-api/src',
-        ),
-    );
-
     public static $classMap = array (
         'CS_REST_Administrators' => __DIR__ . '/..' . '/campaignmonitor/createsend-php/csrest_administrators.php',
         'CS_REST_Campaigns' => __DIR__ . '/..' . '/campaignmonitor/createsend-php/csrest_campaigns.php',
@@ -72,6 +58,7 @@ class ComposerStaticInitf7a8cccc0f31f8e7c49da41cd51131ba
         'Newspack_Newsletters_Letterhead_Promotion_Dto' => __DIR__ . '/../..' . '/includes/service-providers/letterhead/dtos/class-newspack-newsletters-letterhead-promotion-dto.php',
         'Newspack_Newsletters_Logger' => __DIR__ . '/../..' . '/includes/class-newspack-newsletters-logger.php',
         'Newspack_Newsletters_Mailchimp' => __DIR__ . '/../..' . '/includes/service-providers/mailchimp/class-newspack-newsletters-mailchimp.php',
+        'Newspack_Newsletters_Mailchimp_Api' => __DIR__ . '/../..' . '/includes/service-providers/mailchimp/class-newspack-newsletters-mailchimp-api.php',
         'Newspack_Newsletters_Mailchimp_Cached_Data' => __DIR__ . '/../..' . '/includes/service-providers/mailchimp/class-newspack-newsletters-mailchimp-cached-data.php',
         'Newspack_Newsletters_Mailchimp_Controller' => __DIR__ . '/../..' . '/includes/service-providers/mailchimp/class-newspack-newsletters-mailchimp-controller.php',
         'Newspack_Newsletters_Mailchimp_Groups' => __DIR__ . '/../..' . '/includes/service-providers/mailchimp/class-newspack-newsletters-mailchimp-groups.php',
@@ -92,9 +79,7 @@ class ComposerStaticInitf7a8cccc0f31f8e7c49da41cd51131ba
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf7a8cccc0f31f8e7c49da41cd51131ba::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf7a8cccc0f31f8e7c49da41cd51131ba::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitf7a8cccc0f31f8e7c49da41cd51131ba::$classMap;
+            $loader->classMap = ComposerStaticInitad140987a728377ab04fed0fe5aa6a0e::$classMap;
 
         }, null, ClassLoader::class);
     }

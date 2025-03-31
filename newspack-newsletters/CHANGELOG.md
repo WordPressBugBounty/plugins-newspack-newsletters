@@ -1,3 +1,18 @@
+# [3.11.0](https://github.com/Automattic/newspack-newsletters/compare/v3.10.1...v3.11.0) (2025-03-31)
+
+
+### Bug Fixes
+
+* add UTM parameters to link URLs inside newsletter content ([#1776](https://github.com/Automattic/newspack-newsletters/issues/1776)) ([b04cba3](https://github.com/Automattic/newspack-newsletters/commit/b04cba375d51dd8fc79e2ba289447aaa762ed54e))
+* **editor:** fix multiple-emails notice for AC and MC ESPs ([#1784](https://github.com/Automattic/newspack-newsletters/issues/1784)) ([974c133](https://github.com/Automattic/newspack-newsletters/commit/974c1330c74a4cdbab97098eac13de2964614176))
+* **modal-checkout:** filter post-checkout signup lists ([#1783](https://github.com/Automattic/newspack-newsletters/issues/1783)) ([e4d7af2](https://github.com/Automattic/newspack-newsletters/commit/e4d7af24bea8da5df13d25e7409b506efa8524ec))
+
+
+### Features
+
+* incorporate the Mailchimp API with a few tweaks ([#1774](https://github.com/Automattic/newspack-newsletters/issues/1774)) ([ee9fb11](https://github.com/Automattic/newspack-newsletters/commit/ee9fb114780e150e7c48293f78e3052eead4d5f9))
+* update buttons style in editor ([#1772](https://github.com/Automattic/newspack-newsletters/issues/1772)) ([0ffc150](https://github.com/Automattic/newspack-newsletters/commit/0ffc15095f9ccd5a959239bb44eefdbef09b69ed))
+
 ## [3.10.1](https://github.com/Automattic/newspack-newsletters/compare/v3.10.0...v3.10.1) (2025-03-25)
 
 
