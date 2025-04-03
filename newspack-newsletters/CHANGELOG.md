@@ -1,3 +1,10 @@
+## [3.11.1](https://github.com/Automattic/newspack-newsletters/compare/v3.11.0...v3.11.1) (2025-04-03)
+
+
+### Bug Fixes
+
+* migrate tags and groups ([#1788](https://github.com/Automattic/newspack-newsletters/issues/1788)) ([efd3509](https://github.com/Automattic/newspack-newsletters/commit/efd35096a60e5d4bbae19c01d0c8a96a6837c226))
+
 # [3.11.0](https://github.com/Automattic/newspack-newsletters/compare/v3.10.1...v3.11.0) (2025-03-31)
 
 
