@@ -1,3 +1,10 @@
+## [3.11.2](https://github.com/Automattic/newspack-newsletters/compare/v3.11.1...v3.11.2) (2025-04-07)
+
+
+### Bug Fixes
+
+* **ads:** prevent ads with same position from replacing each other ([#1794](https://github.com/Automattic/newspack-newsletters/issues/1794)) ([b77d82f](https://github.com/Automattic/newspack-newsletters/commit/b77d82f1b7a3432741ef20599fb74bb7b858b3b9))
+
 ## [3.11.1](https://github.com/Automattic/newspack-newsletters/compare/v3.11.0...v3.11.1) (2025-04-03)
 
 
