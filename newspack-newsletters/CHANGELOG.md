@@ -1,3 +1,10 @@
+## [3.11.3](https://github.com/Automattic/newspack-newsletters/compare/v3.11.2...v3.11.3) (2025-04-08)
+
+
+### Bug Fixes
+
+* **ads:** separate sort by position logic ([f473d1e](https://github.com/Automattic/newspack-newsletters/commit/f473d1e012a095e00783aa9c1fe28a96c145d383))
+
 ## [3.11.2](https://github.com/Automattic/newspack-newsletters/compare/v3.11.1...v3.11.2) (2025-04-07)
 
 
