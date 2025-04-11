@@ -1,3 +1,10 @@
+## [3.11.4](https://github.com/Automattic/newspack-newsletters/compare/v3.11.3...v3.11.4) (2025-04-11)
+
+
+### Bug Fixes
+
+* **local-lists:** create contact if adding to local lists only ([#1801](https://github.com/Automattic/newspack-newsletters/issues/1801)) ([08f788a](https://github.com/Automattic/newspack-newsletters/commit/08f788a3125d2669cadfe41cce5bee7b200247a3))
+
 ## [3.11.3](https://github.com/Automattic/newspack-newsletters/compare/v3.11.2...v3.11.3) (2025-04-08)
 
 
