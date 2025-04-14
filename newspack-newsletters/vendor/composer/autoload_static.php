@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit244084bbc4daeb8cfdb1d129c663df7b
+class ComposerStaticInitfdddc3186eb69b15088dc1ec2525cda4
 {
     public static $classMap = array (
         'CS_REST_Administrators' => __DIR__ . '/..' . '/campaignmonitor/createsend-php/csrest_administrators.php',
@@ -79,7 +79,7 @@ class ComposerStaticInit244084bbc4daeb8cfdb1d129c663df7b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInit244084bbc4daeb8cfdb1d129c663df7b::$classMap;
+            $loader->classMap = ComposerStaticInitfdddc3186eb69b15088dc1ec2525cda4::$classMap;
 
         }, null, ClassLoader::class);
     }

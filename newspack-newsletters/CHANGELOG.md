@@ -1,3 +1,15 @@
+# [3.12.0](https://github.com/Automattic/newspack-newsletters/compare/v3.11.4...v3.12.0) (2025-04-14)
+
+
+### Bug Fixes
+
+* update social icon editor CSS selector for WP 6.8 ([#1790](https://github.com/Automattic/newspack-newsletters/issues/1790)) ([0f253f9](https://github.com/Automattic/newspack-newsletters/commit/0f253f9a4b1d3e75f2b12049bc1dd5e9b6d0cc69))
+
+
+### Features
+
+* add POT file to the plugin ([#1789](https://github.com/Automattic/newspack-newsletters/issues/1789)) ([f3d0066](https://github.com/Automattic/newspack-newsletters/commit/f3d0066e04ae8f0a499e4858fbff9e58727044aa))
+
 ## [3.11.4](https://github.com/Automattic/newspack-newsletters/compare/v3.11.3...v3.11.4) (2025-04-11)
 
 
