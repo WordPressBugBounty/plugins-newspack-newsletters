@@ -1,3 +1,10 @@
+## [3.12.1](https://github.com/Automattic/newspack-newsletters/compare/v3.12.0...v3.12.1) (2025-04-21)
+
+
+### Bug Fixes
+
+* fix error handling for active campaign add tag ([#1818](https://github.com/Automattic/newspack-newsletters/issues/1818)) ([f9a31e1](https://github.com/Automattic/newspack-newsletters/commit/f9a31e101b5570c337292d552270fbdab575dd85))
+
 # [3.12.0](https://github.com/Automattic/newspack-newsletters/compare/v3.11.4...v3.12.0) (2025-04-14)
 
 
