@@ -1,3 +1,10 @@
+## [3.12.2](https://github.com/Automattic/newspack-newsletters/compare/v3.12.1...v3.12.2) (2025-04-22)
+
+
+### Bug Fixes
+
+* ignore sticky posts in the post inserter query when not otherwise manipulated ([#1814](https://github.com/Automattic/newspack-newsletters/issues/1814)) ([1a03722](https://github.com/Automattic/newspack-newsletters/commit/1a03722a9bcbd59d0988962dcc6e929314bf5d81))
+
 ## [3.12.1](https://github.com/Automattic/newspack-newsletters/compare/v3.12.0...v3.12.1) (2025-04-21)
 
 
