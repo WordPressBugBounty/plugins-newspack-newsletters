@@ -1,3 +1,10 @@
+## [3.15.2](https://github.com/Automattic/newspack-newsletters/compare/v3.15.1...v3.15.2) (2025-06-25)
+
+
+### Bug Fixes
+
+* trigger release for empty active campaign messages ([8ced47e](https://github.com/Automattic/newspack-newsletters/commit/8ced47e33ded9aefcb047ab63819e1381fd49ee2))
+
 ## [3.15.1](https://github.com/Automattic/newspack-newsletters/compare/v3.15.0...v3.15.1) (2025-06-16)
 
 
