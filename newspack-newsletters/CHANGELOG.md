@@ -1,3 +1,10 @@
+## [3.15.3](https://github.com/Automattic/newspack-newsletters/compare/v3.15.2...v3.15.3) (2025-06-26)
+
+
+### Bug Fixes
+
+* register meta after class init ([#1851](https://github.com/Automattic/newspack-newsletters/issues/1851)) ([6613286](https://github.com/Automattic/newspack-newsletters/commit/661328646fcc8f2903708668b2f3bced6f40e92a))
+
 ## [3.15.2](https://github.com/Automattic/newspack-newsletters/compare/v3.15.1...v3.15.2) (2025-06-25)
 
 
