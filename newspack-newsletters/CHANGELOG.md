@@ -1,3 +1,10 @@
+# [3.16.0](https://github.com/Automattic/newspack-newsletters/compare/v3.15.3...v3.16.0) (2025-06-30)
+
+
+### Features
+
+* delete contact by email address, not user ID ([#1837](https://github.com/Automattic/newspack-newsletters/issues/1837)) ([5cbf055](https://github.com/Automattic/newspack-newsletters/commit/5cbf055135811b8836844ea01838bd89f06b0545))
+
 ## [3.15.3](https://github.com/Automattic/newspack-newsletters/compare/v3.15.2...v3.15.3) (2025-06-26)
 
 
