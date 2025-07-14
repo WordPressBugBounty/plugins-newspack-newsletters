@@ -1,3 +1,15 @@
+# [3.17.0](https://github.com/Automattic/newspack-newsletters/compare/v3.16.0...v3.17.0) (2025-07-14)
+
+
+### Bug Fixes
+
+* prevent HTML overwrite when post taken over ([#1849](https://github.com/Automattic/newspack-newsletters/issues/1849)) ([6e95634](https://github.com/Automattic/newspack-newsletters/commit/6e9563408627ce64f9685618ce6ccab56bcc98a9))
+
+
+### Features
+
+* add a button to unschedule newsletters ([#1844](https://github.com/Automattic/newspack-newsletters/issues/1844)) ([cecbf8f](https://github.com/Automattic/newspack-newsletters/commit/cecbf8f88bbcb761935c44f5e1de005c202567c6))
+
 # [3.16.0](https://github.com/Automattic/newspack-newsletters/compare/v3.15.3...v3.16.0) (2025-06-30)
 
 
