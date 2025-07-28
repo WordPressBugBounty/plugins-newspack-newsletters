@@ -1,3 +1,16 @@
+# [3.18.0](https://github.com/Automattic/newspack-newsletters/compare/v3.17.0...v3.18.0) (2025-07-28)
+
+
+### Bug Fixes
+
+* **layout:** only migrate layout defaults from legacy meta if esp is not set to manual ([#1859](https://github.com/Automattic/newspack-newsletters/issues/1859)) ([21d8b1b](https://github.com/Automattic/newspack-newsletters/commit/21d8b1bfd5eb6c3b59cad4936ec904d79a57380d))
+* recaptcha settings link ([#1863](https://github.com/Automattic/newspack-newsletters/issues/1863)) ([d43d1e8](https://github.com/Automattic/newspack-newsletters/commit/d43d1e894ce9448079f71fa6101ac27cc80c6ae3))
+
+
+### Features
+
+* **admin-menu:** remove non-applicable admin menu items ([#1807](https://github.com/Automattic/newspack-newsletters/issues/1807)) ([2d9e379](https://github.com/Automattic/newspack-newsletters/commit/2d9e379cbc8525e2e26306861284f0cec4e89771))
+
 # [3.17.0](https://github.com/Automattic/newspack-newsletters/compare/v3.16.0...v3.17.0) (2025-07-14)
 
 

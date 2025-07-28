@@ -72,6 +72,7 @@ final class Newspack_Newsletters {
 		add_action( 'init', [ __CLASS__, 'register_blocks' ] );
 		add_action( 'init', [ __CLASS__, 'load_textdomain' ] );
 		add_action( 'rest_api_init', [ __CLASS__, 'rest_api_init' ] );
+		add_action( 'admin_menu', [ __CLASS__, 'remove_admin_menu_items' ], 99 );
 		add_action( 'default_title', [ __CLASS__, 'default_title' ], 10, 2 );
 		add_action( 'wp_head', [ __CLASS__, 'public_newsletter_custom_style' ], 10, 2 );
 		add_filter( 'display_post_states', [ __CLASS__, 'display_post_states' ], 10, 2 );
@@ -598,6 +599,33 @@ final class Newspack_Newsletters {
 			'menu_icon'        => 'data:image/svg+xml;base64,' . base64_encode( '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 7c0-1.1.9-2 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm2-.5h14c.3 0 .5.2.5.5v1L12 13.5 4.5 7.9V7c0-.3.2-.5.5-.5Zm-.5 3.3V17c0 .3.2.5.5.5h14c.3 0 .5-.2.5-.5V9.8L12 15.4 4.5 9.8Z"></path></svg>' ),
 		];
 		\register_post_type( self::NEWSPACK_NEWSLETTERS_CPT, $cpt_args );
+	}
+
+	/**
+	 * Remove some admin menu items, if the user has no matching capability.
+	 */
+	public static function remove_admin_menu_items() {
+		$newsletter_post_type_object = get_post_type_object( self::NEWSPACK_NEWSLETTERS_CPT );
+		$newsletter_ad_post_type_object = get_post_type_object( Newspack_Newsletters_Ads::CPT );
+
+		if ( $newsletter_post_type_object === null || $newsletter_ad_post_type_object === null ) {
+			return;
+		}
+
+		// If the user can't edit newsletters, the "Category" will be the top-level menu item.
+		$category_page_slug = 'edit-tags.php?taxonomy=category&amp;post_type=' . self::NEWSPACK_NEWSLETTERS_CPT;
+
+		$can_edit_newsletters = current_user_can( $newsletter_post_type_object->cap->edit_posts );
+		$can_edit_newsletter_ads = current_user_can( $newsletter_ad_post_type_object->cap->edit_posts );
+
+		if ( ! $can_edit_newsletters && ! $can_edit_newsletter_ads ) {
+			// If they user can't edit newsletters, the taxonomy menu items will still be visible. Let's remove them.
+			remove_submenu_page( $category_page_slug, $category_page_slug );
+			remove_submenu_page( $category_page_slug, 'edit-tags.php?taxonomy=post_tag&amp;post_type=' . self::NEWSPACK_NEWSLETTERS_CPT );
+		}
+
+		// Note: Newsletter Ads menu handling is done in Newspack_Newsletters_Ads::add_ads_page()
+		// which dynamically places the menu based on user capabilities.
 	}
 
 	/**
