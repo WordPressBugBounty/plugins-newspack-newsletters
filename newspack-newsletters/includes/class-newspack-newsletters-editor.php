@@ -528,6 +528,21 @@ final class Newspack_Newsletters_Editor {
 			]
 		);
 
+		// Add custom byline info.
+		register_rest_field(
+			'post',
+			'newspack_custom_byline',
+			[
+				'get_callback' => [ __CLASS__, 'newspack_get_custom_byline' ],
+				'schema'       => [
+					'context' => [
+						'edit',
+					],
+					'type'    => 'string',
+				],
+			]
+		);
+
 		// Add sponsor info.
 		if ( function_exists( '\Newspack_Sponsors\get_all_sponsors' ) ) {
 			register_rest_field(
@@ -626,6 +641,7 @@ final class Newspack_Newsletters_Editor {
 	public static function newspack_get_author_info( $post ) {
 		$author_data = [];
 
+
 		if ( function_exists( 'get_coauthors' ) ) {
 			$authors = get_coauthors();
 
@@ -656,6 +672,20 @@ final class Newspack_Newsletters_Editor {
 
 		/* Return the author data */
 		return $author_data;
+	}
+
+	/**
+	 * Get custom byline for the REST /posts response.
+	 *
+	 * @param object $post Post object for the post being returned.
+	 * @return string|null Formatted custom byline HTML or null if not active.
+	 */
+	public static function newspack_get_custom_byline( $post ) {
+		if ( ! class_exists( 'Newspack\Bylines' ) ) {
+			return null;
+		}
+
+		return \Newspack\Bylines::get_custom_byline_html( $post['id'] );
 	}
 
 	/**
