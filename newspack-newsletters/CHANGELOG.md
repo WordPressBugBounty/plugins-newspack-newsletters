@@ -1,3 +1,10 @@
+# [3.20.0](https://github.com/Automattic/newspack-newsletters/compare/v3.19.1...v3.20.0) (2025-08-21)
+
+
+### Features
+
+* **activecampaign:** custom address ID via constant ([#1899](https://github.com/Automattic/newspack-newsletters/issues/1899)) ([47da6b7](https://github.com/Automattic/newspack-newsletters/commit/47da6b7dcb5c28c5f34f6ab03b0002f62117b662))
+
 ## [3.19.1](https://github.com/Automattic/newspack-newsletters/compare/v3.19.0...v3.19.1) (2025-08-12)
 
 
