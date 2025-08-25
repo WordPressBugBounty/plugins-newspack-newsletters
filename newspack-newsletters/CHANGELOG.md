@@ -1,3 +1,19 @@
+# [3.21.0](https://github.com/Automattic/newspack-newsletters/compare/v3.20.0...v3.21.0) (2025-08-25)
+
+
+### Bug Fixes
+
+* **ads:** only apply click tracking to ad links ([#1895](https://github.com/Automattic/newspack-newsletters/issues/1895)) ([d20b763](https://github.com/Automattic/newspack-newsletters/commit/d20b76313137241e8ab3a589acc17db64bb39c01))
+* email styling issues ([#1878](https://github.com/Automattic/newspack-newsletters/issues/1878)) ([e2f9726](https://github.com/Automattic/newspack-newsletters/commit/e2f972658ac287c784ef8949c522f1d489cab79c))
+* handle scheduled in past sending ([#1886](https://github.com/Automattic/newspack-newsletters/issues/1886)) ([8143259](https://github.com/Automattic/newspack-newsletters/commit/8143259a342e9a57deca7c9a50b96f655ef99f60))
+
+
+### Features
+
+* ads placements ([#1880](https://github.com/Automattic/newspack-newsletters/issues/1880)) ([291c82f](https://github.com/Automattic/newspack-newsletters/commit/291c82f23530af041c8e6d815cbb200b968ad02b))
+* improve CLI ([#1872](https://github.com/Automattic/newspack-newsletters/issues/1872)) ([aa0b684](https://github.com/Automattic/newspack-newsletters/commit/aa0b68410abc77c21b520ac9d55656aa48ca77ab))
+* **subscribe-block:** add modern grid style variation ([#1869](https://github.com/Automattic/newspack-newsletters/issues/1869)) ([3eb1b5d](https://github.com/Automattic/newspack-newsletters/commit/3eb1b5d8acd9a4934de71d6dc78149e8d664887a))
+
 # [3.20.0](https://github.com/Automattic/newspack-newsletters/compare/v3.19.1...v3.20.0) (2025-08-21)
 
 
