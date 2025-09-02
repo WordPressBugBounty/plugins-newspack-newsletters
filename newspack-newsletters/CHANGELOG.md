@@ -1,3 +1,10 @@
+## [3.21.1](https://github.com/Automattic/newspack-newsletters/compare/v3.21.0...v3.21.1) (2025-09-02)
+
+
+### Bug Fixes
+
+* reset newsletter list when not found in ESP ([#1905](https://github.com/Automattic/newspack-newsletters/issues/1905)) ([3e09b6c](https://github.com/Automattic/newspack-newsletters/commit/3e09b6ccaaa5226cfcf8a4ba7a78b107ca2d6ec9))
+
 # [3.21.0](https://github.com/Automattic/newspack-newsletters/compare/v3.20.0...v3.21.0) (2025-08-25)
 
 
