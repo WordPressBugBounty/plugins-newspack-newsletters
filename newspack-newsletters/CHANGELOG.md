@@ -1,3 +1,10 @@
+## [3.21.2](https://github.com/Automattic/newspack-newsletters/compare/v3.21.1...v3.21.2) (2025-09-04)
+
+
+### Bug Fixes
+
+* wait for fetch before clearing list or sublist ids ([#1907](https://github.com/Automattic/newspack-newsletters/issues/1907)) ([1435d61](https://github.com/Automattic/newspack-newsletters/commit/1435d61e133f6fe869d694dfb834d49725de13c8)), closes [#1905](https://github.com/Automattic/newspack-newsletters/issues/1905)
+
 ## [3.21.1](https://github.com/Automattic/newspack-newsletters/compare/v3.21.0...v3.21.1) (2025-09-02)
 
 
