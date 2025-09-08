@@ -1,3 +1,17 @@
+# [3.22.0](https://github.com/Automattic/newspack-newsletters/compare/v3.21.3...v3.22.0) (2025-09-08)
+
+
+### Bug Fixes
+
+* **ads:** only apply click tracking to ad links ([#1895](https://github.com/Automattic/newspack-newsletters/issues/1895)) ([7d826c8](https://github.com/Automattic/newspack-newsletters/commit/7d826c8f95d582c361745118cc7613b915c5df46))
+* respect block spacing when rendering ([#1894](https://github.com/Automattic/newspack-newsletters/issues/1894)) ([8293690](https://github.com/Automattic/newspack-newsletters/commit/8293690828eed85f4dd0276c6f833154dd97cc0c))
+
+
+### Features
+
+* add support for Foundation Community Remote Data Blocks ([#1898](https://github.com/Automattic/newspack-newsletters/issues/1898)) ([e5fd624](https://github.com/Automattic/newspack-newsletters/commit/e5fd62447a8c332d25340e1f6aed985a28516f14))
+* **layouts:** persist auto ads option ([#1896](https://github.com/Automattic/newspack-newsletters/issues/1896)) ([2b3ffac](https://github.com/Automattic/newspack-newsletters/commit/2b3ffacd663f8a997dc67e1830a9f8b765e72e99))
+
 ## [3.21.3](https://github.com/Automattic/newspack-newsletters/compare/v3.21.2...v3.21.3) (2025-09-08)
 
 
