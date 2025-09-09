@@ -1,3 +1,10 @@
+## [3.22.1](https://github.com/Automattic/newspack-newsletters/compare/v3.22.0...v3.22.1) (2025-09-09)
+
+
+### Bug Fixes
+
+* cast disable_auto_ads value as boolean ([#1915](https://github.com/Automattic/newspack-newsletters/issues/1915)) ([54f1914](https://github.com/Automattic/newspack-newsletters/commit/54f1914830bd4ad3cbda2cc774f25a45b4d0f58e))
+
 # [3.22.0](https://github.com/Automattic/newspack-newsletters/compare/v3.21.3...v3.22.0) (2025-09-08)
 
 
