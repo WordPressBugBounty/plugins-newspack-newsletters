@@ -1,3 +1,10 @@
+## [3.22.2](https://github.com/Automattic/newspack-newsletters/compare/v3.22.1...v3.22.2) (2025-09-11)
+
+
+### Bug Fixes
+
+* persist meta populated from layout for new drafts ([#1917](https://github.com/Automattic/newspack-newsletters/issues/1917)) ([f751b1e](https://github.com/Automattic/newspack-newsletters/commit/f751b1e980e22c1d5b9e3c367e8fb693c9a09469))
+
 ## [3.22.1](https://github.com/Automattic/newspack-newsletters/compare/v3.22.0...v3.22.1) (2025-09-09)
 
 
