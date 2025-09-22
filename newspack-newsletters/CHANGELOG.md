@@ -1,3 +1,10 @@
+# [3.23.0](https://github.com/Automattic/newspack-newsletters/compare/v3.22.2...v3.23.0) (2025-09-22)
+
+
+### Features
+
+* keep line breaks on lists descriptions ([#1906](https://github.com/Automattic/newspack-newsletters/issues/1906)) ([b4416c4](https://github.com/Automattic/newspack-newsletters/commit/b4416c4dabaea342ddcef7575ceb1cdefa50fffb))
+
 ## [3.22.2](https://github.com/Automattic/newspack-newsletters/compare/v3.22.1...v3.22.2) (2025-09-11)
 
 
