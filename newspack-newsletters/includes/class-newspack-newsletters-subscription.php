@@ -472,7 +472,7 @@ class Newspack_Newsletters_Subscription {
 			if ( is_object( $intent ) || is_numeric( $intent ) ) {
 				$intent = self::get_subscription_intent( $intent );
 			}
-			if ( count( $intent['errors'] ) > 3 ) {
+			if ( is_array( $intent['errors'] ) && count( $intent['errors'] ) > 3 ) {
 				Newspack_Newsletters_Logger::log( 'Too many errors for contact ' . $intent['contact']['email'] . '. Removing intent.' );
 				self::remove_subscription_intent( $intent['id'] );
 				continue;
@@ -490,6 +490,9 @@ class Newspack_Newsletters_Subscription {
 				$email = $contact['email'];
 				if ( $user ) {
 					update_user_meta( $user->ID, 'newspack_newsletters_subscription_error', $result->get_error_message() );
+				}
+				if ( ! is_array( $intent['errors'] ) ) {
+					$intent['errors'] = [];
 				}
 				$intent['errors'][] = $result->get_error_message();
 				\update_post_meta( $intent['id'], 'errors', $intent['errors'] );
@@ -1012,7 +1015,7 @@ class Newspack_Newsletters_Subscription {
 							<?php endforeach; ?>
 						</ul>
 					</div>
-					<button type="submit"><?php _e( 'Update subscriptions', 'newspack-newsletters' ); ?></button>
+					<button class="newspack-ui__button newspack-ui__button--primary" type="submit"><?php _e( 'Update subscriptions', 'newspack-newsletters' ); ?></button>
 				</form>
 			<?php endif; ?>
 		</div>

@@ -1,3 +1,159 @@
+## [3.27.1](https://github.com/Automattic/newspack-newsletters/compare/v3.27.0...v3.27.1) (2026-02-02)
+
+
+### Bug Fixes
+
+* **newsletters:** hide Jetpack stats column on newsletters ([#2013](https://github.com/Automattic/newspack-newsletters/issues/2013)) ([4cdae19](https://github.com/Automattic/newspack-newsletters/commit/4cdae19ca40f4bb05b2732583311c5e0523e4730))
+
+# [3.27.0](https://github.com/Automattic/newspack-newsletters/compare/v3.26.0...v3.27.0) (2026-01-19)
+
+
+### Bug Fixes
+
+* **ads:** start/end date value format ([#2005](https://github.com/Automattic/newspack-newsletters/issues/2005)) ([4cf8f4e](https://github.com/Automattic/newspack-newsletters/commit/4cf8f4e38f375d4a8f9d32011114f1be48a7f365))
+
+
+### Features
+
+* rename tracking ([#1999](https://github.com/Automattic/newspack-newsletters/issues/1999)) ([0ae58db](https://github.com/Automattic/newspack-newsletters/commit/0ae58db0e092f3ab919573c07db530ebee7da66f))
+
+# [3.26.0](https://github.com/Automattic/newspack-newsletters/compare/v3.25.5...v3.26.0) (2026-01-05)
+
+
+### Features
+
+* add support for WP 6.9's Notes feature to Newsletters ([#1975](https://github.com/Automattic/newspack-newsletters/issues/1975)) ([52d2caf](https://github.com/Automattic/newspack-newsletters/commit/52d2cafaf64c773ff88030335f8d7d7ef59e4d14))
+* default mailchimp footer ([#1977](https://github.com/Automattic/newspack-newsletters/issues/1977)) ([3239120](https://github.com/Automattic/newspack-newsletters/commit/3239120fd9cdbb4617342cbeda6680683264a3d3))
+
+## [3.25.5](https://github.com/Automattic/newspack-newsletters/compare/v3.25.4...v3.25.5) (2025-12-17)
+
+
+### Bug Fixes
+
+* **memberships-cli:** avoid reuse of variable name ([#2001](https://github.com/Automattic/newspack-newsletters/issues/2001)) ([249c39d](https://github.com/Automattic/newspack-newsletters/commit/249c39d2a348dc7240cf87cf300f28a27346da40))
+
+## [3.25.4](https://github.com/Automattic/newspack-newsletters/compare/v3.25.3...v3.25.4) (2025-12-09)
+
+
+### Bug Fixes
+
+* make sure a log file always exists ([#1996](https://github.com/Automattic/newspack-newsletters/issues/1996)) ([f1976a0](https://github.com/Automattic/newspack-newsletters/commit/f1976a0cac4a643733d95358145e5339a8d7ce19))
+
+## [3.25.3](https://github.com/Automattic/newspack-newsletters/compare/v3.25.2...v3.25.3) (2025-12-08)
+
+
+### Bug Fixes
+
+* **my-account:** subscription button style ([#1978](https://github.com/Automattic/newspack-newsletters/issues/1978)) ([d92fe7e](https://github.com/Automattic/newspack-newsletters/commit/d92fe7e30e1e6edff40e28cc46f52f5842f71fb0))
+
+## [3.25.2](https://github.com/Automattic/newspack-newsletters/compare/v3.25.1...v3.25.2) (2025-12-03)
+
+
+### Bug Fixes
+
+* rename blockVisibility to visibility ([#1991](https://github.com/Automattic/newspack-newsletters/issues/1991)) ([1e9cf1d](https://github.com/Automattic/newspack-newsletters/commit/1e9cf1d743bfa08b7c280d5765c20e63f44c172b))
+
+## [3.25.1](https://github.com/Automattic/newspack-newsletters/compare/v3.25.0...v3.25.1) (2025-11-26)
+
+
+### Bug Fixes
+
+* **mjml:** escape values when converting post to MJML ([#1976](https://github.com/Automattic/newspack-newsletters/issues/1976)) ([8a61355](https://github.com/Automattic/newspack-newsletters/commit/8a61355813650901851b4218a79c66319feecdf9))
+
+# [3.25.0](https://github.com/Automattic/newspack-newsletters/compare/v3.24.2...v3.25.0) (2025-11-24)
+
+
+### Bug Fixes
+
+* `alpha` conflicts with `release` ([da3938a](https://github.com/Automattic/newspack-newsletters/commit/da3938a214aff6e33a59959c8f3337ff1f62cd3d))
+* `alpha` conflicts with `release` ([#1973](https://github.com/Automattic/newspack-newsletters/issues/1973)) ([ca54c51](https://github.com/Automattic/newspack-newsletters/commit/ca54c5198572dea428aa2961c378e259bba5a552))
+* remove 'hide block' option for Newsletters ([#1968](https://github.com/Automattic/newspack-newsletters/issues/1968)) ([c7ae6e2](https://github.com/Automattic/newspack-newsletters/commit/c7ae6e24f18fddbe9b9eaf2fe71b3b1375efbc60))
+* remove 'hide block' option for Newsletters ([#1968](https://github.com/Automattic/newspack-newsletters/issues/1968)) ([74d3c39](https://github.com/Automattic/newspack-newsletters/commit/74d3c396d5e7f64e6fdfbc37d4d6bb28e9cf8a9d))
+* remove stretchy paragraphy, heading block variations from newsletter ([#1967](https://github.com/Automattic/newspack-newsletters/issues/1967)) ([0eaf738](https://github.com/Automattic/newspack-newsletters/commit/0eaf7385fc01889132ee83e97eab87ffd80a6183))
+* remove stretchy paragraphy, heading block variations from newsletter ([#1967](https://github.com/Automattic/newspack-newsletters/issues/1967)) ([39ce7b8](https://github.com/Automattic/newspack-newsletters/commit/39ce7b82e3872cf3a1182d7e68c05b829582f341))
+
+
+### Features
+
+* Merge pull request [#1960](https://github.com/Automattic/newspack-newsletters/issues/1960) from Automattic/trunk ([79b9539](https://github.com/Automattic/newspack-newsletters/commit/79b95391af644956e3bb29828c69172e8bc51694))
+
+## [3.24.2](https://github.com/Automattic/newspack-newsletters/compare/v3.24.1...v3.24.2) (2025-11-24)
+
+
+### Bug Fixes
+
+* allow updates to scheduled newsletter posts ([#1966](https://github.com/Automattic/newspack-newsletters/issues/1966)) ([3e165ff](https://github.com/Automattic/newspack-newsletters/commit/3e165ff0264cf4320a77174fe8a775338f70ded7))
+
+## [3.24.1](https://github.com/Automattic/newspack-newsletters/compare/v3.24.0...v3.24.1) (2025-11-05)
+
+
+### Bug Fixes
+
+* potential fatal errors due to assumed data types ([#1959](https://github.com/Automattic/newspack-newsletters/issues/1959)) ([d42ad7d](https://github.com/Automattic/newspack-newsletters/commit/d42ad7d7699569e89cf6ea876732a1d3a63503ba))
+
+# [3.24.0](https://github.com/Automattic/newspack-newsletters/compare/v3.23.7...v3.24.0) (2025-10-30)
+
+
+### Bug Fixes
+
+* better handling for padding and border style attributes in newsletters ([#1948](https://github.com/Automattic/newspack-newsletters/issues/1948)) ([42d8ee1](https://github.com/Automattic/newspack-newsletters/commit/42d8ee1766ea9253cd54c70ad25e7fcbbc495334))
+* **dependencies:** restore last known working package version ([#1949](https://github.com/Automattic/newspack-newsletters/issues/1949)) ([a6d1c3e](https://github.com/Automattic/newspack-newsletters/commit/a6d1c3e08386ec2a8b3483ba5e1a2b366bb4493c))
+
+
+### Features
+
+* **visibility-attribute:** support email-only blocks ([#1941](https://github.com/Automattic/newspack-newsletters/issues/1941)) ([017673c](https://github.com/Automattic/newspack-newsletters/commit/017673c0d4e294cfb691902f92f153162e08a447))
+
+## [3.23.7](https://github.com/Automattic/newspack-newsletters/compare/v3.23.6...v3.23.7) (2025-10-14)
+
+
+### Bug Fixes
+
+* revert borders and padding in email HTML hotfix ([#1947](https://github.com/Automattic/newspack-newsletters/issues/1947)) ([d7525eb](https://github.com/Automattic/newspack-newsletters/commit/d7525ebcacc678ae1fa262cba00195c1702c3948))
+
+## [3.23.6](https://github.com/Automattic/newspack-newsletters/compare/v3.23.5...v3.23.6) (2025-10-13)
+
+
+### Bug Fixes
+
+* borders and padding in email HTML ([f2c4368](https://github.com/Automattic/newspack-newsletters/commit/f2c4368484dc79fc340d39f4291f909b8447a8ca))
+
+## [3.23.5](https://github.com/Automattic/newspack-newsletters/compare/v3.23.4...v3.23.5) (2025-10-08)
+
+
+### Bug Fixes
+
+* **mailchimp:** strip protocol strings from link-based merge tags ([#1934](https://github.com/Automattic/newspack-newsletters/issues/1934)) ([dbd4e19](https://github.com/Automattic/newspack-newsletters/commit/dbd4e1960699908f2a975030d1b820abe689596b))
+
+## [3.23.4](https://github.com/Automattic/newspack-newsletters/compare/v3.23.3...v3.23.4) (2025-10-07)
+
+
+### Bug Fixes
+
+* **activecampaign:** only trigger contact deletion when in change email context ([#1938](https://github.com/Automattic/newspack-newsletters/issues/1938)) ([e1a0cb0](https://github.com/Automattic/newspack-newsletters/commit/e1a0cb0306ac63c9629cfe9a53f406cd0a18c1a2))
+
+## [3.23.3](https://github.com/Automattic/newspack-newsletters/compare/v3.23.2...v3.23.3) (2025-10-07)
+
+
+### Bug Fixes
+
+* **activecampaign:** add required sdate param ([#1940](https://github.com/Automattic/newspack-newsletters/issues/1940)) ([bb9fd09](https://github.com/Automattic/newspack-newsletters/commit/bb9fd0991a9c6425f535b4a92d68d15189320c7c))
+
+## [3.23.2](https://github.com/Automattic/newspack-newsletters/compare/v3.23.1...v3.23.2) (2025-10-06)
+
+
+### Bug Fixes
+
+* avoid errors ([#1927](https://github.com/Automattic/newspack-newsletters/issues/1927)) ([8bad336](https://github.com/Automattic/newspack-newsletters/commit/8bad336aa3fcf0b9c4f02fc651c8fe52938dc83b))
+* update download URL for db.php ([#1920](https://github.com/Automattic/newspack-newsletters/issues/1920)) ([bf89e79](https://github.com/Automattic/newspack-newsletters/commit/bf89e799440d7818fa74485f63be12e11697b3e6))
+
+## [3.23.1](https://github.com/Automattic/newspack-newsletters/compare/v3.23.0...v3.23.1) (2025-09-22)
+
+
+### Bug Fixes
+
+* trigger save before opening send modal ([#1925](https://github.com/Automattic/newspack-newsletters/issues/1925)) ([7492915](https://github.com/Automattic/newspack-newsletters/commit/74929153a240eb0e6aa68093b3480e5510d8c466))
+
 # [3.23.0](https://github.com/Automattic/newspack-newsletters/compare/v3.22.2...v3.23.0) (2025-09-22)
 
 
