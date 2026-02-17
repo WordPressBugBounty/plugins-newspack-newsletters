@@ -1,3 +1,10 @@
+## [3.28.4](https://github.com/Automattic/newspack-newsletters/compare/v3.28.3...v3.28.4) (2026-02-16)
+
+
+### Bug Fixes
+
+* release-wporg script ([#2036](https://github.com/Automattic/newspack-newsletters/issues/2036)) ([c991aae](https://github.com/Automattic/newspack-newsletters/commit/c991aae0d37b24578db1f05c308ae99f92c2c2a7))
+
 ## [3.28.3](https://github.com/Automattic/newspack-newsletters/compare/v3.28.2...v3.28.3) (2026-02-16)
 
 
