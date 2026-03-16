@@ -1,3 +1,10 @@
+## [3.28.6](https://github.com/Automattic/newspack-newsletters/compare/v3.28.5...v3.28.6) (2026-03-03)
+
+
+### Bug Fixes
+
+* ensure current user lists are initialized as an empty array if not an array ([#2043](https://github.com/Automattic/newspack-newsletters/issues/2043)) ([0afb1c6](https://github.com/Automattic/newspack-newsletters/commit/0afb1c6e1c835539c706e8b8c4ff577ef34dea3c))
+
 ## [3.28.5](https://github.com/Automattic/newspack-newsletters/compare/v3.28.4...v3.28.5) (2026-02-17)
 
 
