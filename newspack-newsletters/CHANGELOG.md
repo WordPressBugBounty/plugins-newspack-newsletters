@@ -1,3 +1,17 @@
+# [3.29.0](https://github.com/Automattic/newspack-newsletters/compare/v3.28.6...v3.29.0) (2026-03-16)
+
+
+### Bug Fixes
+
+* iframe editor compatibility ([#2025](https://github.com/Automattic/newspack-newsletters/issues/2025)) ([cd15c02](https://github.com/Automattic/newspack-newsletters/commit/cd15c026eb25521c4004bf2d54e7ceb38fc9cd55))
+* improve error handling in upsert contact method ([#2031](https://github.com/Automattic/newspack-newsletters/issues/2031)) ([89a5937](https://github.com/Automattic/newspack-newsletters/commit/89a593786c5528e36708e1440920b5e8a4504a1b))
+* no parallel post-release jobs ([#2037](https://github.com/Automattic/newspack-newsletters/issues/2037)) ([8e4a738](https://github.com/Automattic/newspack-newsletters/commit/8e4a738b96584b331a1862997663418a3c971847))
+
+
+### Features
+
+* **init-modal:** apply new modal style to init screen in editor ([#2041](https://github.com/Automattic/newspack-newsletters/issues/2041)) ([3caafdc](https://github.com/Automattic/newspack-newsletters/commit/3caafdc27a01479cff1c2168a4fdee6f0ab3e175))
+
 ## [3.28.6](https://github.com/Automattic/newspack-newsletters/compare/v3.28.5...v3.28.6) (2026-03-03)
 
 
