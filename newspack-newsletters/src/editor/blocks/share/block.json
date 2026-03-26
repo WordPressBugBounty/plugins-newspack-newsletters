@@ -12,11 +12,16 @@
 			"source": "html",
 			"selector": "p",
 			"default": "Thanks for reading. If you liked it, please send to a friend!",
-			"__experimentalRole": "content"
+			"__experimentalRole": "content",
+			"role": "content"
 		},
 		"shareMessage": {
 			"type": "string",
 			"default": "I'd like to share this newsletter with you: [LINK]"
+		},
+		"href": {
+			"type": "string",
+			"default": ""
 		}
 	},
 	"supports": {
