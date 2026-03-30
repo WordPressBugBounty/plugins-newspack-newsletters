@@ -1,3 +1,10 @@
+## [3.29.2](https://github.com/Automattic/newspack-newsletters/compare/v3.29.1...v3.29.2) (2026-03-26)
+
+
+### Bug Fixes
+
+* share block registration ([#2055](https://github.com/Automattic/newspack-newsletters/issues/2055)) ([03ecfa7](https://github.com/Automattic/newspack-newsletters/commit/03ecfa7726edcc7130c6b86c8ba30b42317f0f1c))
+
 ## [3.29.1](https://github.com/Automattic/newspack-newsletters/compare/v3.29.0...v3.29.1) (2026-03-23)
 
 
