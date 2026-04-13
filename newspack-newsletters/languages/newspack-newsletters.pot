@@ -2,14 +2,14 @@
 # This file is distributed under the GPL2.
 msgid ""
 msgstr ""
-"Project-Id-Version: Newspack Newsletters 3.29.0\n"
+"Project-Id-Version: Newspack Newsletters 3.30.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/newspack-newsletters\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-03-17T18:57:08+00:00\n"
+"POT-Creation-Date: 2026-04-02T17:25:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: newspack-newsletters\n"
@@ -343,35 +343,35 @@ msgstr[1] ""
 msgid "Not supported for this provider"
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:239
+#: includes/class-newspack-newsletters-editor.php:253
 msgctxt "font size name"
 msgid "Small"
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:244
+#: includes/class-newspack-newsletters-editor.php:258
 msgctxt "font size name"
 msgid "Medium"
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:249
+#: includes/class-newspack-newsletters-editor.php:263
 msgctxt "font size name"
 msgid "Large"
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:254
+#: includes/class-newspack-newsletters-editor.php:268
 msgctxt "font size name"
 msgid "Extra Large"
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:354
+#: includes/class-newspack-newsletters-editor.php:370
 msgid "Continue reading…"
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:355
+#: includes/class-newspack-newsletters-editor.php:371
 msgid "By "
 msgstr ""
 
-#: includes/class-newspack-newsletters-editor.php:356
+#: includes/class-newspack-newsletters-editor.php:372
 msgid "and "
 msgstr ""
 
@@ -919,11 +919,11 @@ msgstr ""
 msgid "Other providers this list is already configured for:"
 msgstr ""
 
-#: includes/class-subscription-lists.php:660
+#: includes/class-subscription-lists.php:667
 msgid "Description"
 msgstr ""
 
-#: includes/class-subscription-lists.php:677
+#: includes/class-subscription-lists.php:684
 msgid "Back to Subscription Lists management"
 msgstr ""
 
@@ -1735,15 +1735,16 @@ msgstr ""
 #: dist/blocks.js:1
 #: dist/editorBlocks.js:5
 #: src/blocks/subscribe/edit.js:194
-#: src/newsletter-editor/styling/index.js:231
-msgid "Text color"
+#: src/editor/blocks/posts-inserter/index.js:238
+#: src/newsletter-editor/styling/index.js:207
+msgid "Text"
 msgstr ""
 
 #: dist/blocks.js:1
 #: dist/editorBlocks.js:5
 #: src/blocks/subscribe/edit.js:199
-#: src/newsletter-editor/styling/index.js:221
-msgid "Background color"
+#: src/newsletter-editor/styling/index.js:212
+msgid "Background"
 msgstr ""
 
 #: dist/blocks.js:1
@@ -1845,7 +1846,7 @@ msgid "Success message"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/utils.js:105
+#: src/editor/blocks/posts-inserter/utils.js:104
 msgctxt "comma separator for multiple authors"
 msgid ","
 msgstr ""
@@ -1866,74 +1867,74 @@ msgid "Post type"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:213
+#: src/editor/blocks/posts-inserter/query-controls.js:214
 msgid "Display specific posts"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:219
+#: src/editor/blocks/posts-inserter/query-controls.js:220
 msgid "Display sponsored posts"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:228
+#: src/editor/blocks/posts-inserter/query-controls.js:229
 msgid "Add posts"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:255
+#: src/editor/blocks/posts-inserter/query-controls.js:256
 msgid "Hide Advanced Filters"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:256
+#: src/editor/blocks/posts-inserter/query-controls.js:257
 msgid "Show Advanced Filters"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:267
+#: src/editor/blocks/posts-inserter/query-controls.js:268
 msgid "Tags"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:275
+#: src/editor/blocks/posts-inserter/query-controls.js:277
 msgid "Excluded Categories"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:283
+#: src/editor/blocks/posts-inserter/query-controls.js:286
 msgid "Excluded Tags"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:287
+#: src/editor/blocks/posts-inserter/query-controls.js:291
 msgid "Order by"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:291
+#: src/editor/blocks/posts-inserter/query-controls.js:295
 msgid "Newest to oldest"
 msgstr ""
 
 #: dist/editorBlocks.js:1
-#: src/editor/blocks/posts-inserter/query-controls.js:295
+#: src/editor/blocks/posts-inserter/query-controls.js:299
 msgid "Oldest to newest"
 msgstr ""
 
 #. translators: label for ordering posts by title in ascending order
 #: dist/editorBlocks.js:3
-#: src/editor/blocks/posts-inserter/query-controls.js:300
+#: src/editor/blocks/posts-inserter/query-controls.js:304
 msgid "A → Z"
 msgstr ""
 
 #. translators: label for ordering posts by title in descending order
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/query-controls.js:305
+#: src/editor/blocks/posts-inserter/query-controls.js:309
 msgid "Z → A"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/components/select-control-with-optgroup/index.js:58
+#: src/components/select-control-with-optgroup/index.js:49
 msgid "-- Select --"
 msgstr ""
 
@@ -1993,145 +1994,163 @@ msgid "Courier"
 msgstr ""
 
 #: dist/editorBlocks.js:5
+#: src/editor/blocks/posts-inserter/index.js:226
 #: src/newsletter-editor/styling/index.js:201
-msgid "Typography"
-msgstr ""
-
-#: dist/editorBlocks.js:5
-#: src/newsletter-editor/styling/index.js:204
-msgid "Headings font"
-msgstr ""
-
-#: dist/editorBlocks.js:5
-#: src/newsletter-editor/styling/index.js:212
-msgid "Body font"
-msgstr ""
-
-#: dist/editorBlocks.js:5
-#: src/newsletter-editor/styling/index.js:219
 msgid "Color"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/newsletter-editor/styling/index.js:241
+#: src/editor/blocks/posts-inserter/index.js:242
+#: src/newsletter-editor/styling/index.js:216
+msgid "Typography"
+msgstr ""
+
+#: dist/editorBlocks.js:5
+#: src/newsletter-editor/styling/index.js:218
+msgid "Headings font"
+msgstr ""
+
+#: dist/editorBlocks.js:5
+#: src/newsletter-editor/styling/index.js:224
+msgid "Body font"
+msgstr ""
+
+#: dist/editorBlocks.js:5
+#: src/newsletter-editor/styling/index.js:230
+#: src/newsletter-editor/styling/index.js:234
 #: src/newsletter-editor/styling/index.js:245
-#: src/newsletter-editor/styling/index.js:256
 msgid "Custom CSS"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/newsletter-editor/styling/index.js:246
+#: src/newsletter-editor/styling/index.js:235
 msgid "This is an advanced feature and may result in unpredictable behavior. Custom CSS will be appended to default styles in sent emails only."
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/newsletter-editor/styling/index.js:257
+#: src/newsletter-editor/styling/index.js:246
 msgid "Write custom CSS…"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:125
+#: src/editor/blocks/posts-inserter/index.js:74
+msgid "Subtitle"
+msgstr ""
+
+#: dist/editorBlocks.js:5
+#: src/editor/blocks/posts-inserter/index.js:143
 msgid "Show image on top"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:131
+#: src/editor/blocks/posts-inserter/index.js:149
 msgid "Show image on left"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:137
+#: src/editor/blocks/posts-inserter/index.js:155
 msgid "Show image on right"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:146
+#: src/editor/blocks/posts-inserter/index.js:164
 msgid "Small"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:150
+#: src/editor/blocks/posts-inserter/index.js:168
 msgid "Medium"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:154
+#: src/editor/blocks/posts-inserter/index.js:172
 msgid "Large"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:161
-msgid "Post content settings"
+#: src/editor/blocks/posts-inserter/index.js:179
+msgid "Post Content"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:163
+#: src/editor/blocks/posts-inserter/index.js:181
 msgid "Post subtitle"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:168
+#: src/editor/blocks/posts-inserter/index.js:186
 msgid "Post excerpt"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:174
+#: src/editor/blocks/posts-inserter/index.js:192
 msgid "Max number of words in excerpt"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:182
+#: src/editor/blocks/posts-inserter/index.js:200
 msgid "Date"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:187
+#: src/editor/blocks/posts-inserter/index.js:205
 msgid "Featured image"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:192
+#: src/editor/blocks/posts-inserter/index.js:210
 msgid "Author's name"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:197
+#: src/editor/blocks/posts-inserter/index.js:215
 msgid "\"Continue reading…\" link"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:202
-msgid "Sorting and filtering"
+#: src/editor/blocks/posts-inserter/index.js:220
+msgid "Sorting & Filtering"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:205
-msgid "Text style"
+#: src/editor/blocks/posts-inserter/index.js:232
+msgid "Heading"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:219
-msgid "Heading style"
+#: src/editor/blocks/posts-inserter/index.js:245
+msgid "Heading size"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:231
-msgid "Subtitle style"
+#: src/editor/blocks/posts-inserter/index.js:258
+msgid "Subtitle size"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:251
+#: src/editor/blocks/posts-inserter/index.js:271
+msgid "Text size"
+msgstr ""
+
+#: dist/editorBlocks.js:5
+#: src/editor/blocks/posts-inserter/index.js:292
 msgid "Image Size"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:288
+#: src/editor/blocks/posts-inserter/index.js:329
+#: src/editor/blocks/posts-inserter/index.js:427
 msgid "Posts Inserter"
 msgstr ""
 
 #: dist/editorBlocks.js:5
-#: src/editor/blocks/posts-inserter/index.js:298
+#: src/editor/blocks/posts-inserter/index.js:339
 msgid "Insert posts"
+msgstr ""
+
+#: dist/editorBlocks.js:5
+#: src/editor/blocks/posts-inserter/index.js:428
+msgid "Lets you insert posts into your newsletter."
 msgstr ""
 
 #: dist/newsletterAdsEditor.js:1
@@ -2427,30 +2446,30 @@ msgstr ""
 msgid "Opening tag for conditional content. E.g.: %s"
 msgstr ""
 
-#: src/editor/blocks/conditional-content/index.js:63
+#: src/editor/blocks/conditional-content/index.js:64
 msgid "Closing tag"
 msgstr ""
 
 #. translators: %s: example closing tag
-#: src/editor/blocks/conditional-content/index.js:68
+#: src/editor/blocks/conditional-content/index.js:69
 #, js-format
 msgid "Closing tag for conditional content. E.g.: %s"
 msgstr ""
 
-#: src/editor/blocks/conditional-content/index.js:74
+#: src/editor/blocks/conditional-content/index.js:76
 msgid "Click here to learn more."
 msgstr ""
 
-#: src/editor/blocks/conditional-content/index.js:105
+#: src/editor/blocks/conditional-content/index.js:107
 msgid "Missing opening tag for conditional content."
 msgstr ""
 
-#: src/editor/blocks/conditional-content/index.js:111
-#: src/editor/blocks/conditional-content/index.js:127
+#: src/editor/blocks/conditional-content/index.js:113
+#: src/editor/blocks/conditional-content/index.js:129
 msgid "Clear conditional"
 msgstr ""
 
-#: src/editor/blocks/conditional-content/index.js:121
+#: src/editor/blocks/conditional-content/index.js:123
 msgid "Missing closing tag for conditional content."
 msgstr ""
 
@@ -2675,28 +2694,28 @@ msgstr ""
 msgid "Includes your own custom text, as opposed to the subject line of your newsletter in your Tweet. Also includes a link to your campaign page."
 msgstr ""
 
-#: src/editor/blocks/share/edit.js:33
-msgid "Share settings"
-msgstr ""
-
-#: src/editor/blocks/share/edit.js:35
-msgid "Forwarded email content"
-msgstr ""
-
-#: src/editor/blocks/share/edit.js:36
-msgid "Content of the email that will be pre-filled when a reader clicks this link in their email client. Use the \"[LINK]\" placeholder where the link to the public post should be placed."
-msgstr ""
-
-#: src/editor/blocks/share/edit.js:52
-msgid "Share block"
-msgstr ""
-
-#: src/editor/blocks/share/edit.js:78
+#: src/editor/blocks/share/edit.js:45
 msgid "This post is not public - the share block will not be displayed, since there is no post to link to."
 msgstr ""
 
-#: src/editor/blocks/share/edit.js:87
+#: src/editor/blocks/share/edit.js:51
 msgid "Make public"
+msgstr ""
+
+#: src/editor/blocks/share/edit.js:72
+msgid "Share settings"
+msgstr ""
+
+#: src/editor/blocks/share/edit.js:74
+msgid "Forwarded email content"
+msgstr ""
+
+#: src/editor/blocks/share/edit.js:75
+msgid "Content of the email that will be pre-filled when a reader clicks this link in their email client. Use the \"[LINK]\" placeholder where the link to the public post should be placed."
+msgstr ""
+
+#: src/editor/blocks/share/edit.js:91
+msgid "Share block"
 msgstr ""
 
 #: src/editor/blocks/visibility-attribute/index.js:29
@@ -2744,19 +2763,19 @@ msgstr ""
 msgid "Only visible in the sent email."
 msgstr ""
 
-#: src/editor/index.js:86
+#: src/editor/index.js:90
 msgid "Circle Black"
 msgstr ""
 
-#: src/editor/index.js:91
+#: src/editor/index.js:95
 msgid "Circle White"
 msgstr ""
 
-#: src/editor/index.js:96
+#: src/editor/index.js:100
 msgid "Black"
 msgstr ""
 
-#: src/editor/index.js:101
+#: src/editor/index.js:105
 msgid "White"
 msgstr ""
 
@@ -2809,7 +2828,7 @@ msgid "Error communicating with service provider."
 msgstr ""
 
 #: src/newsletter-editor/index.js:99
-msgid "Newsletter Styles"
+msgid "Newsletter Global Styles"
 msgstr ""
 
 #: src/newsletter-editor/index.js:115

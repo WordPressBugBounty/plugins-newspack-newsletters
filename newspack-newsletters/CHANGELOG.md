@@ -1,3 +1,10 @@
+# [3.30.0](https://github.com/Automattic/newspack-newsletters/compare/v3.29.2...v3.30.0) (2026-03-30)
+
+
+### Features
+
+* add test_connection() to newsletter service providers ([#2047](https://github.com/Automattic/newspack-newsletters/issues/2047)) ([c0fbef5](https://github.com/Automattic/newspack-newsletters/commit/c0fbef521bece078bb2e03272ab7e5049a7bb938))
+
 ## [3.29.2](https://github.com/Automattic/newspack-newsletters/compare/v3.29.1...v3.29.2) (2026-03-26)
 
 
