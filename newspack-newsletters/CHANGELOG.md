@@ -1,3 +1,18 @@
+# [3.31.0](https://github.com/Automattic/newspack-newsletters/compare/v3.30.0...v3.31.0) (2026-04-13)
+
+
+### Bug Fixes
+
+* **dependencies:** rebuild package-lock.json ([#2066](https://github.com/Automattic/newspack-newsletters/issues/2066)) ([6e82e00](https://github.com/Automattic/newspack-newsletters/commit/6e82e00c0ab084d3a40787f397cd2e4349e1eae4))
+* **posts-inserter:** handle missing featured images; improve performance ([#1969](https://github.com/Automattic/newspack-newsletters/issues/1969)) ([cf5a47d](https://github.com/Automattic/newspack-newsletters/commit/cf5a47d1fae7adf218592373fb8944a3da0b9976))
+* update block support declaration ([#2060](https://github.com/Automattic/newspack-newsletters/issues/2060)) ([10a4468](https://github.com/Automattic/newspack-newsletters/commit/10a446809d1379afd1c4f16563d073aeef030a8d))
+* update removing block visibility ([#2056](https://github.com/Automattic/newspack-newsletters/issues/2056)) ([93d5e80](https://github.com/Automattic/newspack-newsletters/commit/93d5e803236e42e33eddbca128dd1ea52975c2e0))
+
+
+### Features
+
+* **access-control:** filter the subscription lists available to readers for signup ([#2053](https://github.com/Automattic/newspack-newsletters/issues/2053)) ([f8aea0b](https://github.com/Automattic/newspack-newsletters/commit/f8aea0b28c4e6bedaad8767a309ee74317952a4e))
+
 # [3.30.0](https://github.com/Automattic/newspack-newsletters/compare/v3.29.2...v3.30.0) (2026-03-30)
 
 
