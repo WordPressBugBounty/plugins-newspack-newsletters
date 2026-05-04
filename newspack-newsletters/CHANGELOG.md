@@ -1,3 +1,10 @@
+## [3.31.1](https://github.com/Automattic/newspack-newsletters/compare/v3.31.0...v3.31.1) (2026-04-15)
+
+
+### Bug Fixes
+
+* use active campaign saved segments summary endpoint ([#2079](https://github.com/Automattic/newspack-newsletters/issues/2079)) ([afa60be](https://github.com/Automattic/newspack-newsletters/commit/afa60be31ace595c6761a5f3c91606e748690d1c))
+
 # [3.31.0](https://github.com/Automattic/newspack-newsletters/compare/v3.30.0...v3.31.0) (2026-04-13)
 
 
