@@ -982,7 +982,7 @@ final class Newspack_Newsletters_Active_Campaign extends \Newspack_Newsletters_S
 			);
 		}
 		/** Clear existing test campaigns for this post. */
-		$test_campaigns = get_post_meta( $post_id, 'ac_test_campaign' );
+		$test_campaigns = get_post_meta( $post_id, 'ac_test_campaign', false );
 		if ( ! empty( $test_campaigns ) ) {
 			foreach ( $test_campaigns as $test_campaign_id ) {
 				$delete_res = $this->delete_campaign( $test_campaign_id, true );
@@ -1327,7 +1327,7 @@ final class Newspack_Newsletters_Active_Campaign extends \Newspack_Newsletters_S
 			$this->delete_campaign( $campaign_id, true );
 		}
 		/** Clean up existing test campaigns. */
-		$test_campaigns = get_post_meta( $post_id, 'ac_test_campaign' );
+		$test_campaigns = get_post_meta( $post_id, 'ac_test_campaign', false );
 		if ( ! empty( $test_campaigns ) ) {
 			foreach ( $test_campaigns as $test_campaign_id ) {
 				$delete_res = $this->delete_campaign( $test_campaign_id, true );
@@ -1372,7 +1372,7 @@ final class Newspack_Newsletters_Active_Campaign extends \Newspack_Newsletters_S
 			return;
 		}
 		/** Clean up existing test campaigns. */
-		$test_campaigns = get_post_meta( $post_id, 'ac_test_campaign' );
+		$test_campaigns = get_post_meta( $post_id, 'ac_test_campaign', false );
 		if ( ! empty( $test_campaigns ) ) {
 			foreach ( $test_campaigns as $test_campaign_id ) {
 				$delete_res = $this->delete_campaign( $test_campaign_id, true );
