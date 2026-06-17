@@ -1,3 +1,10 @@
+## newspack-newsletters [3.34.1](https://github.com/Automattic/newspack-workspace/compare/newspack-newsletters@3.34.0...newspack-newsletters@3.34.1) (2026-06-15)
+
+
+### Bug Fixes
+
+* **esp:** force Mailchimp segment_opts re-snapshot on segment swap ([#221](https://github.com/Automattic/newspack-workspace/issues/221)) ([9cad542](https://github.com/Automattic/newspack-workspace/commit/9cad5427351a118087c28a69354614faa1d36de3))
+
 # newspack-newsletters [3.34.0](https://github.com/Automattic/newspack-workspace/compare/newspack-newsletters@3.33.6...newspack-newsletters@3.34.0) (2026-06-15)
 
 
