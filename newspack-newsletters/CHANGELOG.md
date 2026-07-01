@@ -1,3 +1,10 @@
+## newspack-newsletters [3.35.2](https://github.com/Automattic/newspack-workspace/compare/newspack-newsletters@3.35.1...newspack-newsletters@3.35.2) (2026-07-01)
+
+
+### Bug Fixes
+
+* **newsletters:** add status control to ads quick edit ([#478](https://github.com/Automattic/newspack-workspace/issues/478)) ([4a3fab1](https://github.com/Automattic/newspack-workspace/commit/4a3fab13eb016a436e26f0759625c23f59cc9cab))
+
 ## newspack-newsletters [3.35.1](https://github.com/Automattic/newspack-workspace/compare/newspack-newsletters@3.35.0...newspack-newsletters@3.35.1) (2026-07-01)
 
 
