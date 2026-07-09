@@ -51,6 +51,7 @@ return array(
     'Newspack_Newsletters\\Ads_Placements' => $baseDir . '/includes/ads/class-ads-placements.php',
     'Newspack_Newsletters\\CLI\\Sync_Membership_Tied_Subscribers_CLI' => $baseDir . '/includes/plugins/woocommerce-memberships/class-sync-membership-tied-subscribers-cli.php',
     'Newspack_Newsletters\\Plugins\\Woocommerce_Memberships' => $baseDir . '/includes/plugins/woocommerce-memberships/class-woocommerce-memberships.php',
+    'Newspack_Newsletters\\Tracking\\Ad_Stats' => $baseDir . '/includes/tracking/class-ad-stats.php',
     'Newspack_Newsletters\\Tracking\\Admin' => $baseDir . '/includes/tracking/class-admin.php',
     'Newspack_Newsletters\\Tracking\\Click' => $baseDir . '/includes/tracking/class-click.php',
     'Newspack_Newsletters\\Tracking\\Pixel' => $baseDir . '/includes/tracking/class-pixel.php',

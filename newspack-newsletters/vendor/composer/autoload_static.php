@@ -52,6 +52,7 @@ class ComposerStaticInit2993ee5620d5077ad96573847bb808ff
         'Newspack_Newsletters\\Ads_Placements' => __DIR__ . '/../..' . '/includes/ads/class-ads-placements.php',
         'Newspack_Newsletters\\CLI\\Sync_Membership_Tied_Subscribers_CLI' => __DIR__ . '/../..' . '/includes/plugins/woocommerce-memberships/class-sync-membership-tied-subscribers-cli.php',
         'Newspack_Newsletters\\Plugins\\Woocommerce_Memberships' => __DIR__ . '/../..' . '/includes/plugins/woocommerce-memberships/class-woocommerce-memberships.php',
+        'Newspack_Newsletters\\Tracking\\Ad_Stats' => __DIR__ . '/../..' . '/includes/tracking/class-ad-stats.php',
         'Newspack_Newsletters\\Tracking\\Admin' => __DIR__ . '/../..' . '/includes/tracking/class-admin.php',
         'Newspack_Newsletters\\Tracking\\Click' => __DIR__ . '/../..' . '/includes/tracking/class-click.php',
         'Newspack_Newsletters\\Tracking\\Pixel' => __DIR__ . '/../..' . '/includes/tracking/class-pixel.php',
