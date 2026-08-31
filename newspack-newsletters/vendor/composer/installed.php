@@ -3,7 +3,7 @@
         'name' => 'automattic/newspack-newsletters',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '091e5559c797943d3ad0bfc725d00217f92133cd',
+        'reference' => 'b9190843d71a6727bf33e81577a688b601182791',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/jetpack-autoloader' => array(
-            'pretty_version' => 'v5.0.21',
-            'version' => '5.0.21.0',
-            'reference' => '07b6e0d9b5f948659ce8503140551d5758865a3c',
+            'pretty_version' => 'v5.0.23',
+            'version' => '5.0.23.0',
+            'reference' => 'd11b2d621035dcb920abce8ae09bebd5da5f9ff8',
             'type' => 'composer-plugin',
             'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
             'aliases' => array(),
@@ -22,7 +22,7 @@
         'automattic/newspack-newsletters' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '091e5559c797943d3ad0bfc725d00217f92133cd',
+            'reference' => 'b9190843d71a6727bf33e81577a688b601182791',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -38,9 +38,9 @@
             'dev_requirement' => false,
         ),
         'woocommerce/email-editor' => array(
-            'pretty_version' => '2.15.1',
-            'version' => '2.15.1.0',
-            'reference' => '620f16bc1ee7ad33b7b5df8f354286a0033a33da',
+            'pretty_version' => '2.16.1',
+            'version' => '2.16.1.0',
+            'reference' => '29ff66fa639a9b356c6f1b4032249b6fcea7a264',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../woocommerce/email-editor',
             'aliases' => array(),
