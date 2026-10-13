@@ -966,6 +966,10 @@ return array(
 		'version' => 'dev-main',
 		'path'    => $baseDir . '/includes/admin/class-admin-shell-assets.php'
 	),
+	'Newspack\\Newsletters\\Admin\\Admin_Shell_Collection_Params' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/includes/admin/class-admin-shell-collection-params.php'
+	),
 	'Newspack\\Newsletters\\Admin\\Admin_Shell_Legacy_Redirect' => array(
 		'version' => 'dev-main',
 		'path'    => $baseDir . '/includes/admin/class-admin-shell-legacy-redirect.php'
@@ -989,6 +993,10 @@ return array(
 	'Newspack\\Newsletters\\Admin\\Asset_Loader' => array(
 		'version' => 'dev-main',
 		'path'    => $baseDir . '/includes/admin/class-asset-loader.php'
+	),
+	'Newspack\\Newsletters\\Admin\\Layouts_List_REST' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/includes/admin/class-layouts-list-rest.php'
 	),
 	'Newspack\\Newsletters\\Admin\\Newsletters_List_REST' => array(
 		'version' => 'dev-main',
@@ -1022,9 +1030,17 @@ return array(
 		'version' => 'dev-main',
 		'path'    => $baseDir . '/includes/admin/pages/class-settings-page.php'
 	),
+	'Newspack\\Newsletters\\Admin\\Rest_Author_Field' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/includes/admin/trait-rest-author-field.php'
+	),
 	'Newspack\\Newsletters\\Admin\\Rest_Status_Field' => array(
 		'version' => 'dev-main',
 		'path'    => $baseDir . '/includes/admin/trait-rest-status-field.php'
+	),
+	'Newspack\\Newsletters\\Admin\\Rest_Terms_Field' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/includes/admin/trait-rest-terms-field.php'
 	),
 	'Newspack\\Newsletters\\Admin\\Settings_REST' => array(
 		'version' => 'dev-main',
